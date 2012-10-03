@@ -1,0 +1,21 @@
+{
+  "name": "mpb-boilerplate",
+  "version": "0.0.0",
+  "description": "Sample project implementing Mozilla's Persona identity solution",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "3.0.0rc4",
+    "ejs"    : ">=0.6.1",
+    "colors" : ">=0.6.0"
+  },
+  "author": "Seth McLaughlin",
+  "bin"               : {
+    "app"          : "./bin/app"
+  },
+  "licenses"          : [{
+    "type"            : "Apache"
+  }]
+}

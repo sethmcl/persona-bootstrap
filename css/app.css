@@ -1,0 +1,20 @@
+body {
+  background: #fff;
+  color: #000;
+  font-size: 15pt;
+  margin: 50px;
+}
+
+#login, #logout {
+  display: none;
+}
+
+#login.active, #logout.active {
+  display: block;
+}
+
+#status {
+  width: 500px;
+  background: #F7DCEF;
+  padding: 10px;
+}
